@@ -1,7 +1,7 @@
 package com.skilldistillery.jets;
 
 public class AirField {
-	boolean cargoCarrier;
+	boolean MuleBird;
 	Jet jet = null;
 	Jet[] hangar = new Jet[40];
 
@@ -61,7 +61,7 @@ public class AirField {
 		}
 		System.out.println(jet);
 	}
-	public boolean isCargoCarrier() {
-		return cargoCarrier;
+	public boolean isMule() {
+		return MuleBird;
 	}
 }

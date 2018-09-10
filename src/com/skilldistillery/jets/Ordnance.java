@@ -7,7 +7,15 @@ public class Ordnance extends Jet{
 	public Ordnance() {
 		
 	}
+	public Ordnance(String model, int speed, int range, int price) {
+		super(model, speed, range, price);
 
+	}
+	
+	public void isCombatReady() {
+		System.out.println(this.getModel() + "is Combat Ready.");
+	}
+	
 	public void executeGroundMission() {
 		System.out.println("Select a Jet to complete mission: ");
 		System.out.println("1.  Ground Support");
@@ -26,10 +34,6 @@ public class Ordnance extends Jet{
 		scanner.close();
 	}
 
-	public Ordnance(String model, int speed, int range, int price) {
-		super(model, speed, range, price);
-		
-	}
 	
 	
 }

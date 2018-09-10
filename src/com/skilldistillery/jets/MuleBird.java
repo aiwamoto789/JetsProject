@@ -25,7 +25,13 @@ public class MuleBird extends Jet {
 		}
 		scanner.close();
 	}
-
+	
+	public boolean isMule() {
+		return true;
+		
+	}
+	
+	
 	public MuleBird(String model, int speed, int range, int price) {
 		super(model, speed, range, price);
 		

@@ -5,6 +5,10 @@ public abstract class Jet {
 	private int speed;
 	private int range;
 	private int price;
+	private static boolean MuleBird;
+	private static boolean SkyCleaner;
+	private static boolean SneakyBird;
+	private static boolean Ordnance;
 	
 	
 	public Jet() {
@@ -18,6 +22,18 @@ public abstract class Jet {
 	}
 	public String getModel() {
 		return model;
+	}
+	public boolean isMule() {
+		return MuleBird;
+	}
+	public boolean isSkyCleaner() {
+		return SkyCleaner;
+	}
+	public boolean isRecon() {
+		return SneakyBird;
+	}
+	public boolean isOrdnance() {
+		return Ordnance;
 	}
 	public void setModel(String model) {
 		this.model = model;

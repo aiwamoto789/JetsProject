@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SkyCleaner extends Jet{
 
 	public SkyCleaner() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	public void executeDogFightMission() {
 		System.out.println("Select a Jet to complete mission: ");
@@ -24,9 +24,13 @@ public class SkyCleaner extends Jet{
 		}
 		scanner.close();
 	}
+	public void isCombatReady() {
+		System.out.println(this.getModel() + "is Combat Ready.");
+	}
 	public SkyCleaner(String model, int speed, int range, int price) {
 		super(model, speed, range, price);
 		
 	}
-	
+	public isSkyCleaner() {
+	}
 }
