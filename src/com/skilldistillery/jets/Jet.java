@@ -26,14 +26,14 @@ public abstract class Jet {
 	public boolean isMule() {
 		return MuleBird;
 	}
-	public boolean isSkyCleaner() {
-		return SkyCleaner;
-	}
-	public boolean isRecon() {
+	public static boolean isRecon() {
 		return SneakyBird;
 	}
-	public boolean isOrdnance() {
+	public static boolean isOrdnance() {
 		return Ordnance;
+	}
+	public static boolean isSkyCleaner() {
+		return SkyCleaner;
 	}
 	public void setModel(String model) {
 		this.model = model;

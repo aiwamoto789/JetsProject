@@ -7,7 +7,7 @@ public class SkyCleaner extends Jet{
 	public SkyCleaner() {
 		
 	}
-	public void executeDogFightMission() {
+	public static void executeDogFightMission() {
 		System.out.println("Select a Jet to complete mission: ");
 		System.out.println("1.  Aerial targets: low support, down n dirty");
 		System.out.println("2.  Aerial targets:  air superiority required");
@@ -31,6 +31,7 @@ public class SkyCleaner extends Jet{
 		super(model, speed, range, price);
 		
 	}
-	public isSkyCleaner() {
+	public static boolean isSkyCleaner() {
+		return true;
 	}
 }

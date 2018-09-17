@@ -16,7 +16,7 @@ public class Ordnance extends Jet{
 		System.out.println(this.getModel() + "is Combat Ready.");
 	}
 	
-	public void executeGroundMission() {
+	public static void executeGroundMission() {
 		System.out.println("Select a Jet to complete mission: ");
 		System.out.println("1.  Ground Support");
 		System.out.println("2.  Bombing Run");

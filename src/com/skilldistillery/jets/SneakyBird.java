@@ -8,7 +8,7 @@ public class SneakyBird extends Jet{
 		
 	}
 
-	public void executeReconnaissanceMission() {
+	public static void executeReconnaissanceMission() {
 		System.out.println("Select a Jet to complete mission: ");
 		System.out.println("1.  Non-Hostile Recon");
 		System.out.println("2.  Hostile Recon");

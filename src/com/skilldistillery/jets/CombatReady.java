@@ -1,5 +1,7 @@
 package com.skilldistillery.jets;
 
 public interface CombatReady {
-	public void isCombatReady();
+	public static boolean isCombatReady() {
+		return true;
+	}
 }

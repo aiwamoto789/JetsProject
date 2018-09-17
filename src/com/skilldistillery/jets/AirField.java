@@ -1,5 +1,6 @@
 package com.skilldistillery.jets;
 
+import java.util.Scanner;
 public class AirField {
 	boolean MuleBird;
 	Jet jet = null;
@@ -47,6 +48,22 @@ public class AirField {
 			}
 		}
 		System.out.println(jet);
+	}
+	public static void addToFleet() {
+	String newJetName;
+	int newJetSpeed;
+	int newJetRange;
+	int newJetPrice;
+	System.out.println("Enter the name of the new jet you'd like to park in the hangar: ");
+	Scanner sc = new Scanner(System.in);
+	newJetName = sc.next();
+	System.out.println("Enter the new plane's top speed:  ");
+	newJetSpeed = sc.nextInt();
+	System.out.println("Enter the new plane's max range:  ");
+	newJetRange = sc.nextInt();
+	System.out.println("Enter the new jet's price:  ");
+	newJetPrice = sc.nextInt();
+	System.out.println("The new jet is parked in the hangar and awaiting maintenance.");
 	}
 
 	public void getRange() {

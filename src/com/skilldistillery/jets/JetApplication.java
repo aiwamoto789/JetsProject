@@ -50,18 +50,19 @@ public class JetApplication {
 				airField.isMule();
 				break;
 			case 6:
-				Jet.isRecon();
+				SneakyBird.executeReconnaissanceMission();
 				break;
 			case 7:
-				Jet.isOrdnance();
+				Ordnance.executeGroundMission();
 				break;
 			case 8:
-				Jet.isSkyCleaner();
+				SkyCleaner.executeDogFightMission();
 				break;
 			case 9:
-				
+				AirField.addToFleet();
 				break;
 			case 10:
+				System.exit(0);
 				break;
 			default:
 				System.out.println("Enter a valid option");
@@ -69,6 +70,6 @@ public class JetApplication {
 			}
 
 		} while (option != 10);
-
+		System.out.println("Please enter a valid option.");
 	}
 }
